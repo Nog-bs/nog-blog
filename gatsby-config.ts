@@ -34,7 +34,7 @@ const config: GatsbyConfig = {
                     },
                     {
                         title: "Portfolio",
-                        url: "https://edrogonzales.netlify.app/",
+                        url: "https://edrogonzales.netlify.app",
                     },
                 ],
             },
