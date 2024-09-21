@@ -32,6 +32,10 @@ const config: GatsbyConfig = {
                         title: `About`,
                         slug: `/about`,
                     },
+                    {
+                        title: "Portfolio",
+                        slug: "https://edrogonzales.netlify.app/",
+                    },
                 ],
             },
         },
