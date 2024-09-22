@@ -32,8 +32,10 @@ const config: GatsbyConfig = {
                         title: `About`,
                         slug: `/about`,
                     },
+                ],
+                externalLinks: [
                     {
-                        title: "Portfolio",
+                        name: "Portfolio",
                         url: "https://edrogonzales.netlify.app",
                     },
                 ],
