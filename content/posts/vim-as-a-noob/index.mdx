@@ -20,105 +20,39 @@ What are VI keybindings? Here is a [link](https://www.youtube.com/watch?v=-txKSR
 
 ## Pre-Ramble
 
-If you have been in tech space long enough, you will have heard of the magical powers of Vim and in
-the adjacent ecosystem will have heard of Emacs,
-Arch Linux, and all that jazz. Personally for me, I want to maintain my sanity so I have opted to just
-learning Neovim on my 2019 Intel Macbook that has a developer workflow consisting of Tmux, Ghostty,
-Aerospace, and Neovim (LazyVim configuration cause I am a noob). I love learning new things and one
-thing I wanted to share that has started to bear fruit was my investment into using Vi Keybindings.
-Which I really encourage to anyone who has a stupid amount of free-time or is willing to embrace
-challenge to try and add into your tooling.
+If you have been in the tech space long enough, you will have heard of the magical powers of Vim and, in the adjacent ecosystem, will have heard of Emacs, Arch Linux, and all that jazz. Personally for me, I want to maintain my sanity, so I have opted to just learn Neovim on my 2019 Intel Macbook that has a developer workflow consisting of Tmux, Ghostty, Aerospace, and Neovim (LazyVim configuration cause I am a noob). I love learning new things, and one thing I wanted to share that has started to bear fruit was my investment into using Vi Keybindings. Which I really encourage anyone who has a stupid amount of free-time or is willing to embrace challenge to try and add into your tooling.
 
 ## How I got Introduced to Vi Keybindings
 
-How I got introduced to Vi keybindings was through a lovely tutorial from this legend here: [link](https://www.youtube.com/watch?v=I6ypD7qv3Z8&ab_channel=BenAwad)
+How I got introduced to Vi keybindings was through a lovely tutorial from this legend here [link](https://www.youtube.com/watch?v=I6ypD7qv3Z8&ab_channel=BenAwad).
 
-I was just trying to learn how to create scaled fullstack apps and was interested in learning the particular stack in this tutorial. When I first witnessed seeing Ben in this
-tutorial zip around with his cursor in visual mode and edit blocks of code in an instant,
-there was a primal need in me as somone just learning to program where I felt like I needed to know
-how this magic worked.
+I was just trying to learn how to create scaled fullstack apps and was interested in learning the particular stack in this tutorial. When I first witnessed seeing Ben in this tutorial zip around with his cursor in visual mode and edit blocks of code in an instant, there was a primal need in me as someone just learning to program where I felt like I needed to know how this magic worked.
 
-On that feeling, the first thing I did was install the Vim plugin in Visual Studio Code and decided to commit
-to using it despite the warnings from various online threads about how difficult it is at first to
-adjust (which I will emphasize was a very difficult transition). The payoff was huge but I want to
-spend some time to maybe describe some of the challenges so maybe if you are a student or someone
-trying to incorporate it for the first time you can maybe find something to relate to while you try
-out this new (not really new) way of moving around in code editors.
+On that feeling, the first thing I did was install the Vim plugin in Visual Studio Code and decided to commit to using it despite the warnings from various online threads about how difficult it is at first to adjust (which I will emphasize was a very difficult transition). The payoff was huge, but I want to spend some time to maybe describe some of the challenges so maybe if you are a student or someone trying to incorporate it for the first time you can maybe find something to relate to while you try out this new (not really new) way of moving around in code editors.
 
 ## Before I get into it
 
-One thing I want to emphasize is that there will be many resources telling you to try Arch Linux and
-to install Neovim and use that as your primary editor. My advice to people who have never even seen
-a floppy disk or even used Windows XP, is to start with VSCode or any modern editor. 99% of the time
-you will find there is a VIM plugin that you can either install or enable. In any coding related
-tool, I have always enjoyed being able to find the VIM keybinding options, which should speak to how
-many people of this tool love and need to have it everywhere 🤣
+One thing I want to emphasize is that there will be many resources telling you to try Arch Linux and to install Neovim and use that as your primary editor. My advice to people who have never even seen a floppy disk or even used Windows XP, is to start with VSCode or any modern editor. 99% of the time you will find there is a VIM plugin that you can either install or enable. In any coding related tool, I have always enjoyed being able to find the VIM keybinding options, which should speak to how many people love and need to have this tool everywhere 🤣
 
-Another piece I want to talk about is that for me personally, when I would train in professional
-dance, one of the things I had to do quite often was dig into the history of some dance styles. This
-would mean having a historical context as to why dance moves were done and why they look like as they are. This
-was to demystify why we do things and understand things better. Ironically, this is a very useful
-mindset when you are in the tech space where we are standing on the shoulders of great
-programmers. Vi in the early days was the fundamental text editor built into any Unix or Unix-like
-operating systems. If you hop into any instance of a Unix operating system, you can always pop open
-a vim editor and start to edit code immediately. To summarize Vi's importance, it was a way for people "in the old days" to interface with a machine
-and edit code before we had the adoption of mouses and various other useful peripherals. So consider
-this learning as also a journey into how many of those before us did this craft, which in my opinion
-should always be appreciated despite the fast-moving industry we work in.
+Another piece I want to talk about is that for me personally, when I would train in professional dance, one of the things I had to do quite often was dig into the history of some dance styles. This would mean having a historical context as to why dance moves were done and why they look as they are. This was to demystify why we do things and understand things better. Ironically, this is a very useful mindset when you are in the tech space where we are standing on the shoulders of great programmers. Vi in the early days was the fundamental text editor built into any Unix or Unix-like operating systems. If you hop into any instance of a Unix operating system, you can always pop open a vim editor and start to edit code immediately. To summarize Vi's importance, it was a way for people "in the old days" to interface with a machine and edit code before we had the adoption of mice and various other useful peripherals. So consider this learning as also a journey into how many of those before us did this craft, which in my opinion should always be appreciated despite the fast-moving industry we work in.
 
 ## The Difficulties of Learning Vi
 
-Imagine relearning how to walk. Imagine for the some odd reason you still had strength in your legs
-but somehow you "forgot" how to use your legs. Maybe another better example for your
-imagination would be is like learning a new fighting game's controls. Imagine if for example H and K were
-your ability to move left and right and J and K were the keybindings for jumping and crouching. That
-is essentially Vi keybindings. There are a lot more keybindings obviously but the difficulty of
-switching from arrow keys or a mouse based type of movement to utilizing those keys was a BIG switch for me. 
-I loved playing fighting games like Smash or shooters like Valorant but there was nothing really translatable to learning these key bindings. It really felt like
-learning how to walk again. Actions as simple as deleting blocks of code actually took mental effort. Luckily, in Ben's tutorial he was
-able to walk through some of the simple ways to perform some commands, but it was still a challenge for me as I had to google stuff as I went and reinvent the way
-I was use to walking through editors. Ben's tutorial was not a good way to learn Vim as it wasn't a comprehensive one but it still useful for me in the beginning. There were many points in this new learning phase where I really
-wanted to just turn off the VSCode plugin and just focus on learning the stack in the tutorial but something
-about the challenge was exciting for me. I was really eager to see what the payoffs of committing to
-this tool would do.
+Imagine relearning how to walk. Imagine for some odd reason you still had strength in your legs but somehow you "forgot" how to use your legs. Maybe another better example for your imagination would be like learning a new fighting game's controls. Imagine if, for example, H and K were your ability to move left and right, and J and K were the keybindings for jumping and crouching. That is essentially Vi keybindings. There are a lot more keybindings obviously, but the difficulty of switching from arrow keys or a mouse-based type of movement to utilizing those keys was a BIG switch for me. I loved playing fighting games like Smash or shooters like Valorant, but there was nothing really translatable to learning these key bindings. It really felt like learning how to walk again. Actions as simple as deleting blocks of code actually took mental effort. Luckily, in Ben's tutorial he was able to walk through some of the simple ways to perform some commands, but it was still a challenge for me as I had to google stuff as I went and reinvent the way I was used to walking through editors. Ben's tutorial was not a good way to learn Vim as it wasn't a comprehensive one but it was still useful for me in the beginning. There were many points in this new learning phase where I really wanted to just turn off the VSCode plugin and just focus on learning the stack in the tutorial, but something about the challenge was exciting for me. I was really eager to see what the payoffs of committing to this tool would do.
 
 ## The Payoffs and Some Insights
-
-Let's talk about the payoffs of this. So one thing I want to maybe mention that may seem
-backwards is that I don't think learning Vi keybindings will make you a better developer. And by
-being a good developer I want to state that would mean someone who is good at problem solving
-and good at navigating technologies to get to their goal. I think and this is the point of this
-post is that it can make someone who originally was writing "good" code write even more good
-code. There is almost an exponentiating factor. This has a worsening effect for people though 
-who write "bad" code to begin with. So the payoff in this regard is that you can output more.
-This however does not make you a better developer as the overarching insight into this. At the
-end of the day, I think learning Vi keyboardings is not really correlative to being a better
-developer. However, it can make a great developer even better by being able to have faster
-output which could be an advantage in this age of AI code generation where code output is getting
-faster day by day. I would like to end off with an encouragement though to consider learning VI
-for a different reason other to be "better".
+Let's talk about the payoffs of this. So one thing I want to maybe mention that may seem backwards is that I don't think learning Vi keybindings will make you a better developer. And by being a good developer I want to state that would mean someone who is good at problem solving and good at navigating technologies to get to their goal. I think, and this is the point of this post, is that it can make someone who originally was writing "good" code write even more good code. There is almost an exponentiating factor. This has a worsening effect for people though who write "bad" code to begin with. So the payoff in this regard is that you can output more. This however does not make you a better developer as the overarching insight into this. At the end of the day, I think learning Vi keyboardings is not really correlative to being a better developer. However, it can make a great developer even better by being able to have faster output which could be an advantage in this age of AI code generation where code output is getting faster day by day. I would like to end off with an encouragement though to consider learning VI for a different reason other than to be "better".
 
 ## Summary
+I would say to those curious about trying new things to consider learning these new keybindings. For me, I think my path as a developer really started to take shape itself when I started getting interested in very niche tooling only for those who write code. Trying out a new IDE, learning a new language, learning VI will have benefits of its own. They are all tech, but as someone who has had some early time in the industry and is constantly looking for bite-sized challenges, I never regretted my time trying out this new way of movement.
 
-I would say to those curious about trying new things to consider learning these new keybindings.
-For me, I think my path as a developer really started to take shape it self when I started
-getting interested in very niche tooling only for those who write code. Trying out a new IDE,
-learning a new language, learning VI will have benefits of its own. They are all tech but as
-someone who has had some early time in the industry and constantly looking for bite-sized
-challenges, I never regretted my time trying out this new way of movement. 
-
-In my time as a student in the CST program, I believed the ability to output code in a faster rate due to using VI was a worthwhile bearing of fruit. However, to reiterate my point above, I noticed that while I could output more code, it didn't mean I was a better developer but that I was a developer that able to output more of the same code. The onus was on me to develop my skills and I am grateful at least I had schooling to help challenge me in this regard.
+In my time as a student in the CST program, I believed the ability to output code at a faster rate due to using VI was a worthwhile bearing of fruit. However, to reiterate my point above, I noticed that while I could output more code, it didn't mean I was a better developer but that I was a developer able to output more of the same code. The onus was on me to develop my skills, and I am grateful at least I had schooling to help challenge me in this regard.
 
 ## Final Thoughts
+I hope this blog has helped you to consider what VI is and the personal benefits I have experienced from utilizing this keybinding set. There is a historical piece I didn't get to dive into regarding the keybindings, but I believe for those who are truly interested you will find the answers you need through a quick google search.
 
-I hope this blog has helped you to consider what VI is and the personal benefits I have
-experienced from utilizing this keybinding set. There is a historical piece I didn't get to dive into regarding the keybindings but I believe for those who are truly interested you will find the answers you need through a quick google search.
-
-If you enjoyed reading this, please support the blog by starring the github repo for this so I
-know there is some net benefit to the writing of this blog 😃
+If you enjoyed reading this, please support the blog by starring the github repo for this so I know there is some net benefit to the writing of this blog 😃
 
 Chowda!
 
-Edro Gonzales
-
-
+Edro Gonzaless
