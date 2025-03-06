@@ -5,10 +5,9 @@
     "version": "1.3.16",
     "author": "LekoArts",
     "license": "0BSD",
-    "starter-name": "gatsby-starter-minimal-blog",
     "scripts": {
         "build": "gatsby build",
-        "develop": "gatsby develop",
+        "run dev": "gatsby develop",
         "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
         "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
         "start": "gatsby develop",
